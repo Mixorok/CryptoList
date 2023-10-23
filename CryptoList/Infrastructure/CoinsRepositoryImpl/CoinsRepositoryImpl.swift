@@ -9,7 +9,6 @@ import Combine
 
 public final class CoinsRepositoryImpl: CoinsRepository {
 
-    private static let cacheKey = "coins"
     private static let maxCoins = 15
 
     public var coins: AnyPublisher<[Coin], Never> {
